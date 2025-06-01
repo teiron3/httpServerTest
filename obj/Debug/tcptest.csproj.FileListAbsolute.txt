@@ -1,0 +1,11 @@
+C:\Users\teiro\source\tcptest\build\tcptest.exe
+C:\Users\teiro\source\tcptest\build\tcptest.pdb
+C:\Users\teiro\source\tcptest\obj\Debug\tcptest.csprojResolveAssemblyReference.cache
+C:\Users\teiro\source\tcptest\obj\Debug\MainWindow.g.cs
+C:\Users\teiro\source\tcptest\obj\Debug\Application.g.cs
+C:\Users\teiro\source\tcptest\obj\Debug\tcptest_MarkupCompile.cache
+C:\Users\teiro\source\tcptest\obj\Debug\tcptest_MarkupCompile.lref
+C:\Users\teiro\source\tcptest\obj\Debug\MainWindow.baml
+C:\Users\teiro\source\tcptest\obj\Debug\tcptest.g.resources
+C:\Users\teiro\source\tcptest\obj\Debug\tcptest.exe
+C:\Users\teiro\source\tcptest\obj\Debug\tcptest.pdb

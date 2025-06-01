@@ -1,0 +1,43 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="tcptest.MainWindow"
+	xmlns:local="clr-namespace:tcptest"
+	xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+	Title="tcptest"
+	Width="800"
+	Height="500"
+	AllowDrop="True">
+	<!-- add init cscode
+		this.DataContext = (vm = new ViewModel());
+	-->
+	<!-- add class cscode
+		private ViewModel vm;
+	-->
+	<!-- add event example #1
+		mvvm
+		<i:Interaction.Triggers>
+		<i:EventTrigger EventName="MouseDoubleClick">
+		<i:InvokeCommandAction Command="{Binding ListBoxMouseDoubleClick}" />
+		</i:EventTrigger>
+		</i:Interaction.Triggers>
+	-->
+
+	<!-- add event example #2
+		need to add event.cs
+		<Label Content="Hello World" Drop="" DragOver="" MouseDoubleClick="" />
+	-->
+	<StackPanel>
+		<Label Content="{Binding testmessage}"/>
+		<Button Content="start"
+				Command="{Binding sub1}"/>
+		<Button Content="end"
+				Command="{Binding inittcpserver}"/>
+		<TextBox Text="{Binding teststatus}"
+				 TextWrapping="Wrap"
+				 Width="700"
+				 Height="300"/>
+
+	</StackPanel>
+</Window>
+
